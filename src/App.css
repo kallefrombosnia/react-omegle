@@ -1,0 +1,19 @@
+.nav-icon{
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.first{
+   margin-left: 10px;
+}
+
+.navbar-brand{
+    padding: 0 !important;
+}
+
+.push-top{
+    margin-top: 40px;
+}

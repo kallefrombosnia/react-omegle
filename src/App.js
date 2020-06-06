@@ -5,7 +5,10 @@ import {
   Route,
 } from "react-router-dom";
 
+import './App.css';
+
 import Routes from './routes/Routes';
+import Welcome from './components/main/Welcome';
 
 function App() {
   
@@ -22,7 +25,7 @@ function App() {
             <Test />
           </Route>
           <Route path="/">
-            <Home />
+            <Welcome/>
           </Route>
         </Switch>
 
@@ -30,6 +33,7 @@ function App() {
   );
 
 }
+
 
 function Home(){
   return(
