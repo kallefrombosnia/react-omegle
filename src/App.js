@@ -9,6 +9,7 @@ import './App.css';
 
 import Routes from './routes/Routes';
 import Welcome from './components/main/Welcome';
+import Go from './components/go/Go';
 
 function App() {
   
@@ -19,7 +20,7 @@ function App() {
 
         <Switch>
           <Route path="/go">
-            <Home />
+            <Go />
           </Route>
           <Route path="/faq">
             <Test />
