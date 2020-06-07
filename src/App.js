@@ -36,12 +36,6 @@ function App() {
 }
 
 
-function Home(){
-  return(
-    <p> go liveee</p>
-  );
-}
-
 function Test(){
   return(
     <p>  faqq </p>
